@@ -1,5 +1,7 @@
+![](https://travis-ci.org/h13i32maru/es6-skeleton.svg?branch=master)
+
 ```sh
-git clone
+git clone git@github.com:h13i32maru/es6-skeleton.git
 cd es6-skeleton
 
 # init dependent package
