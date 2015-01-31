@@ -1,5 +1,21 @@
 ![](https://travis-ci.org/h13i32maru/es6-skeleton.svg?branch=master)
 
+# Required
+
+- Mac OSX
+- Google Chrome and Safari
+- node and npm
+- bower
+- curl
+
+# Tech Stack
+- ES6: 6to5
+- Test: mocha, power-assert and karma
+- Doc: jsdoc3
+- Module: Browserify
+
+# Setup
+
 ```sh
 git clone git@github.com:h13i32maru/es6-skeleton.git
 cd es6-skeleton
