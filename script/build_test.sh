@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rm -rf out/test
-mkdir out/test
+mkdir -p out/test
 ./node_modules/.bin/6to5 --out-dir out/test/ test/
 rm -rf out/test/karma.conf.js
 
