@@ -1,0 +1,33 @@
+{
+  "name": "es6-skeleton",
+  "version": "0.0.1",
+  "description": "ECMAScript6 Skeleton",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h13i32maru/es6-skeleton"
+  },
+  "scripts": {
+    "init": "bash ./script/init.sh",
+    "build": "bash ./script/build.sh",
+    "test": "bash ./script/test.sh",
+    "jsdoc": "bash ./script/build_jsdoc.sh",
+    "sample": "bash ./script/build_sample.sh",
+    "start": "bash ./script/server.sh"
+  },
+  "author": "h13i32maru",
+  "license": "MIT",
+  "devDependencies" : {
+    "6to5": "",
+    "mocha": "",
+    "espower-cli": "",
+    "browserify": "",
+    "karma": "",
+    "karma-mocha": "",
+    "karma-chrome-launcher": "",
+    "karma-safari-launcher": "",
+    "karma-cli": "",
+    "karma-coverage": "",
+    "jsdoc": "",
+    "http-server": ""
+  }
+}
