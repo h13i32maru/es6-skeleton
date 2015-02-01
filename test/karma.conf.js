@@ -4,7 +4,7 @@ module.exports = function(config) {
     frameworks: ['mocha'],
     files: [
       'bower_components/power-assert/build/power-assert.js',
-      'out/src-browser/index-test.js',
+      'out/src-browser/index.js',
       'out/test-espower/**/*.js'
     ],
     reporters: ['progress', 'coverage'],
@@ -14,7 +14,7 @@ module.exports = function(config) {
     browsers: ['Chrome', 'Safari'],
     singleRun: true,
     preprocessors: {
-      'out/src-browser/index-test.js': ['coverage']
+      'out/src-browser/index.js': ['coverage']
     },
 
     customLaunchers: {

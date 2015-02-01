@@ -1,7 +1,7 @@
 #!/bin/bash
-# usage: test.sh [travis]
+# usage: [TRAVIS=1] test.sh
 
-./script/build.sh --test
+./script/build.sh
 ./script/build_test.sh
 
 # npm version of travis is 1.4.
