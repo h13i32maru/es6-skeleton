@@ -1,4 +1,4 @@
-![](https://travis-ci.org/h13i32maru/es6-skeleton.svg?branch=master)
+[![Build Status](https://travis-ci.org/h13i32maru/es6-skeleton.svg?branch=master)](https://travis-ci.org/h13i32maru/es6-skeleton)
 
 # Required
 
