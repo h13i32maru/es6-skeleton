@@ -25,51 +25,49 @@
 - CI
   - [Travis CI](https://travis-ci.org)
 
-# Setup and Development
+# Entry Point
+- for node
+  - ``/out/src/index.js``
+- for browser
+  - ``/out/src/index-browser.js``
+
+# Setup
 
 ```sh
 git clone git@github.com:h13i32maru/es6-skeleton.git your_app
 cd your_app
 rm -rf .git
-
-#===========================
-# init dependent package
-#===========================
 npm run init
+```
 
-#===========================
-# write app
-#===========================
+# Development
+
+```sh
 vi src/Hello.js
 npm run build
-
-#===========================
-# execute app at browser
-#===========================
 npm run start
 open http://localhost:8080/misc/index.html
+```
 
-#===========================
-# write test
-#===========================
+# Test
+
+```sh
 vi test/HelloTest.js
 npm run test
+```
 
-#===========================
-# write jsdoc
-#===========================
-vi src/Hello.js
+# Documentation
+
+```sh
+vi src/Hello.js # write jsdoc
 npm run jsdoc
-
-#===========================
-# show jsdoc at browser
-#===========================
 npm run start
 open http://localhost:8080/out/doc/
+```
 
-#===========================
-# CI on Travis
-#===========================
-vi build badge in README.md
+# CI
+
+```sh
+vi build status in README.md
 push your_repo master
 ```
