@@ -1,5 +1,5 @@
 import Hello from './lib/Hello.js';
 import Goodbye from './lib/Goodbye.js';
 
-window.Hello = Hello;
-window.Goodbye = Goodbye;
+var ES6Skeleton = {Hello, Goodbye};
+export default ES6Skeleton;
